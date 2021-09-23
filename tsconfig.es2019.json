@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./code",
+    "outDir": "./dist/es2019",
+    "sourceMap": false,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2019",
+    "typeRoots": ["node_modules/@types", "typings"],
+    "lib": ["es2018", "dom"]
+  },
+  "exclude": ["node_modules", "./node"]
+}

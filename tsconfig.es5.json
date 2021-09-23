@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./code",
+    "outDir": "./dist/es5",
+    "sourceMap": false,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "typeRoots": ["node_modules/@types", "typings"],
+    "lib": ["es2018", "dom"]
+  },
+  "exclude": ["node_modules", "./node"]
+}

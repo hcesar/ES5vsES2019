@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/node",
+    "sourceMap": false,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "importHelpers": false,
+    "target": "es2019",
+    "typeRoots": ["node_modules/@types", "typings"],
+    "types": ["node"],
+    "lib": ["es2018", "dom"]
+  },
+  "include": ["./node"],
+  "exclude": ["node_modules", "./code"]
+}
